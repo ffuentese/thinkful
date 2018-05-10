@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Layout Example</title>
+	<meta name="description" content="This is an classified ads search engine.">
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<nav>
+		<h1>Greg's List</h1> <div class="right"> <a href="#">Post</a> <a href="#">Account</a></div>
+
+	</nav>
+
+	<main>
+		<section>
+		<div id="search" class="search">
+			<form>
+				<label for="search">Search Jobs</label>
+				<input type="text" name="search" class="searchbar inline" placeholder="Search Software Jobs" />
+				<button id="search-button" class="search-button" ></button>
+			</form>
+		</div>	
+		</section>
+		<div id="pagination" class="pagination">
+			<button class="button extl">&lt; Prev</button>
+  			<button class="button">1 to 100 of 170</button>
+			<button class="button extr">Next &gt;</button>
+		</div>
+		<section>
+
+			<div id="results" class="results">
+				<ul id="list_results" class="list_results">
+					<li class="job_offer">
+						<span class="date">June 22</span>
+						<span class="offer">Technical Project Manager</span>
+						<span class="company">Midtown East</span>
+					</li>
+					<li class="job_offer">
+						<span class="date">June 21</span>
+						<span class="offer">Frontend Developer</span>
+						<span class="company">SoHo</span>
+					</li>
+					<li class="job_offer">
+						<span class="date">June 20</span>
+						<span class="offer">Senior Python Developer / Cofounder</span>
+						<span class="company">Flatiron</span>
+					</li>
+				</ul>
+			</div>
+
+		</section>
+	</main>
+</body>
+</html>
