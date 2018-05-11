@@ -1,0 +1,98 @@
+body {
+background-color: #3F94E7;
+background-size: cover;
+
+}
+
+
+
+main {
+
+
+}
+
+
+.form {
+	width: 400px;
+	margin: 0 auto;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.form img {
+	height: 35px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-bottom: 20px;
+	margin-top: 100px;
+    
+}
+
+.form fieldset {
+	width: 320px;
+	padding: 0;
+  	border: 0;
+  	margin: 0;
+}
+
+.form fieldset > legend {
+		margin-top: 50px;
+		text-align: center;
+		font-size: 30px;
+		margin-bottom: 20px;
+}
+
+.form label {
+	font-family: Arial;
+	text-align: left;
+	font-weight: bold;
+	display: block;
+}
+
+.form input  {
+	height: 21px;
+	width: 286px; 
+	border: 2px solid lightgrey;
+	margin-top: 15px;
+	margin-bottom: 15px; 
+	font-size: 18px;
+	padding: 15px;
+
+}
+
+.form button {
+	height: 55px;
+	width: 320px;
+	border: 2px solid #65C470;
+	border-radius: 1px;
+	padding: 15px;
+	background-color: #65C470;
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.sign-up {
+	border-radius: 2px;
+	background-color: white;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left:  40px;
+	padding-right: 40px;
+	font-family: Arial;	
+}
+
+.login {
+	width: 400px;
+	color: white;
+	font-family: Arial;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	margin: 10 auto;
+}
+
+.login a {
+	color: white;
+}
