@@ -121,7 +121,7 @@ footer {
    	text-align: center;
    }
    .js-stats {
-    
+
    	margin-left: auto;
    	margin-right: auto;
    	position: static;
@@ -133,6 +133,5 @@ footer {
    }
    footer {
    	visibility:hidden;
-
    }
 }
