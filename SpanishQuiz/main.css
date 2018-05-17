@@ -57,6 +57,7 @@ fieldset p {
 	bottom: 0;
 	width: 100%;
 	padding-left: 20px;
+  padding-right: 20px;
 	height: 1vh;
 	margin-bottom: 1vh;
 	position: absolute;
@@ -64,7 +65,7 @@ fieldset p {
 
 .js-stats span {
 	display: inline-block;
-
+  padding: 1vh;
 }
 
 .order {
@@ -72,7 +73,7 @@ fieldset p {
 }
 
 .correct {
-	text-align: right;
+	float: right;
 }
 
 main {
@@ -120,7 +121,7 @@ footer {
    	text-align: center;
    }
    .js-stats {
-   	bottom: 0;
+    
    	margin-left: auto;
    	margin-right: auto;
    	position: static;

@@ -56,6 +56,8 @@ function handleAddToDos(state) {
     event.preventDefault();
     addItem(state, $('#shopping-list-entry').val());
     renderState(state, $('.shopping-list'));
+     $('#shopping-list-entry').val('');
+     $('#shopping-list-entry').focus();
 });
 }
 
